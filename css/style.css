@@ -1,0 +1,185 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.hero-wrapper{
+    height: 850px;
+    background-color: #E1FE5E;
+}
+.header{
+    height: 70px;
+}
+.site-logo{
+    width: 200px;
+    margin-top: 8px;
+}
+.header-menu-ul{
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding: 8px;
+}
+.header-menu-li{
+    display: inline-block;
+    padding: 12px;
+}
+.header-menu-a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #21222D;
+    font-weight: 400;
+    font-family:'Montserrat', sans-serif;
+}
+.header-button-ul{
+    float: right;
+    padding: 8px;
+    margin-top: 10px;
+}
+.header-button-li{
+    display: inline-block;
+    padding: 12px;
+}
+.header-button-a{
+    text-decoration: none;
+    color: #21222D;
+    font-weight: 600;
+    font-family:'Montserrat', sans-serif;
+}
+.header-button-b{
+    text-decoration: none;
+    color: white;
+    padding: 8px 30px;
+    border: 2px solid #21222D;
+    background-color: #21222D;
+    border-radius: 20px;
+    font-family:'Montserrat', sans-serif;
+}
+.header-image{
+    margin-top: 100px;
+}
+.header-image-img{
+    width: 250px;
+    margin-left: 40px;
+}
+
+/* Hero Section CSS Starts Here */
+.hero-heading{
+    font-size: 65px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+
+/* Main Section CSS Starts Here */
+.main-wrapper{
+    height: 800px;
+    background-color: #21222D;
+}
+.featured-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.featured-image-img{
+    border-radius: 12px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 100%;
+    height: 510px;
+}
+.section-b-h1{
+    text-align: center;
+    color: white;
+    padding-top: 230px;
+    font-family:'Montserrat', sans-serif;
+}
+.card-holder{
+    text-align: center;
+    margin-top: 100px;
+}
+.card-image{
+    width: 50px;
+}
+.card-heading{
+    color: #DCDEE2;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family:'Montserrat', sans-serif;
+}
+.card-para{
+    margin-top: 20px;
+    color: #DCDEE2;
+}
+.card-btn{
+    margin-top: 10px;
+    padding: 8px 30px;
+    border-radius: 22px;
+    border: none;
+    background-color: #4B4F64;
+    color: white;
+}
+
+
+/* News Wrapper CSS starts here */
+.news-wrapper{
+    height: 400px;
+    background-color: #EFB7A4;
+    text-align: center;
+}
+.news-heading{
+    padding-top: 100px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.news-para{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 210px;
+    margin-right: 210px;
+}
+.news-form{
+    margin-top: 50px;
+}
+.news-form-email{
+    padding: 8px 30px;
+    border-radius: 22px;
+    border: none;
+    width: 400px;
+}
+.news-form-submit{
+    padding: 8px 30px;
+    border-radius: 22px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-left: -90px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .site-logo{
+        width: 140px;
+    }
+    .header-menu-a{
+        font-size: 10px;
+    }
+    .header-menu-ul{
+        padding: 0px;
+    } 
+    .header-menu-li{
+        padding: 6px;
+    } 
+    .header-button-a{
+        font-size: 12px;
+    }
+    .header-button-b{
+        font-size: 12px;
+        padding: 3px 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header-menu-ul{
+        display: none;
+    }
+}
